@@ -38,9 +38,9 @@
             this.totalLbl = new System.Windows.Forms.Label();
             this.runTotal = new System.Windows.Forms.Label();
             this.applePrice = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.bananaPrice = new System.Windows.Forms.TextBox();
+            this.orangePrice = new System.Windows.Forms.TextBox();
+            this.pearPrice = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.bananaPic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.applePic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.orangePic)).BeginInit();
@@ -138,47 +138,47 @@
             this.applePrice.TabIndex = 9;
             this.applePrice.Text = "1.35 per pound";
             // 
-            // textBox1
+            // bananaPrice
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.SystemColors.Window;
-            this.textBox1.Location = new System.Drawing.Point(100, 230);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(128, 26);
-            this.textBox1.TabIndex = 10;
-            this.textBox1.Text = "65¢ per pound";
+            this.bananaPrice.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.bananaPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bananaPrice.ForeColor = System.Drawing.SystemColors.Window;
+            this.bananaPrice.Location = new System.Drawing.Point(100, 230);
+            this.bananaPrice.Name = "bananaPrice";
+            this.bananaPrice.Size = new System.Drawing.Size(128, 26);
+            this.bananaPrice.TabIndex = 10;
+            this.bananaPrice.Text = "65¢ per pound";
             // 
-            // textBox2
+            // orangePrice
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.SystemColors.Window;
-            this.textBox2.Location = new System.Drawing.Point(100, 413);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(128, 26);
-            this.textBox2.TabIndex = 11;
-            this.textBox2.Text = "1.60 per pound";
+            this.orangePrice.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.orangePrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.orangePrice.ForeColor = System.Drawing.SystemColors.Window;
+            this.orangePrice.Location = new System.Drawing.Point(100, 413);
+            this.orangePrice.Name = "orangePrice";
+            this.orangePrice.Size = new System.Drawing.Size(128, 26);
+            this.orangePrice.TabIndex = 11;
+            this.orangePrice.Text = "1.60 per pound";
             // 
-            // textBox3
+            // pearPrice
             // 
-            this.textBox3.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.ForeColor = System.Drawing.SystemColors.Window;
-            this.textBox3.Location = new System.Drawing.Point(298, 413);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(128, 26);
-            this.textBox3.TabIndex = 12;
-            this.textBox3.Text = "1.20 per pound";
+            this.pearPrice.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.pearPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pearPrice.ForeColor = System.Drawing.SystemColors.Window;
+            this.pearPrice.Location = new System.Drawing.Point(298, 413);
+            this.pearPrice.Name = "pearPrice";
+            this.pearPrice.Size = new System.Drawing.Size(128, 26);
+            this.pearPrice.TabIndex = 12;
+            this.pearPrice.Text = "1.20 per pound";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.pearPrice);
+            this.Controls.Add(this.orangePrice);
+            this.Controls.Add(this.bananaPrice);
             this.Controls.Add(this.applePrice);
             this.Controls.Add(this.runTotal);
             this.Controls.Add(this.totalLbl);
@@ -210,9 +210,9 @@
         private System.Windows.Forms.Label totalLbl;
         private System.Windows.Forms.Label runTotal;
         private System.Windows.Forms.TextBox applePrice;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox bananaPrice;
+        private System.Windows.Forms.TextBox orangePrice;
+        private System.Windows.Forms.TextBox pearPrice;
     }
 }
 
